@@ -1,0 +1,38 @@
+<DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman!!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Permanent+Marker" rel="stylesheet">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</head>
+
+<body onload="startup()">
+<div class=Wrapper>
+    <H1>Video Game Hangman!!</H1>
+
+    Type a letter (then press guess)
+    <input id="guess" type="text">
+    <input type="button" value="guess" onClick="guessOne()"/>
+    <input type="button" value="quit" onClick="quit()"/>
+    <p id="message">&nbsp;</p>
+    <p>
+    <font size="+3"><span id="answer">puzzle loading..</span></font>
+    </p>
+
+    
+    
+    <p id="answer"></p>
+    <p id="counter"></p>
+    <p id="stat"></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url('assets/images/nintendo.jpg');
+
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-style: normal;
+    font-size: 40px;
+    color: indianred;
+
+}
+
+.wrapper {
+        text-align: center;
+        margin-top: 20%;
+        background-color: cornflowerblue;
+        max-width: 50%;
+        margin-left: 25%;
+        padding: 3%;
+        border: 5px;
+        border-color:grey;
+        border: solid;
+
+}
+
