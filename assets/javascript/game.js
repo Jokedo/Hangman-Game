@@ -56,12 +56,12 @@
 
       // if no remaining letters, hurray, you won
       if (remaining_letters == 0) {
-          showThisMessage = "YES! You guessed the word";
+          showThisMessage = "HOORAY! You guessed the word";
       }
 
       // (otherwise) if we have no message, wrong guess 
       if (showThisMessage === "") {
-          showThisMessage = "Sorry, no "+guess;
+          showThisMessage = "Good try, but no "+guess;
       }
 
       // Update the puzzle
